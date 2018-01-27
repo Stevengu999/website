@@ -1,0 +1,119 @@
+.events_list .ic_time {
+    animation: enttime_effect 1s ease both;
+    -webkit-animation: enttime_effect 1s ease both;
+} 
+.events_list .ic_time {
+    position: absolute;
+    left:-19px;
+	top:-8px;
+    display: block;
+    background: url(../images/ic_events.png) no-repeat -428px -30px;
+    width: 38px;
+    height: 68px;
+    margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40%;
+}
+.events_list .ic_arr {
+    display: block;
+    background: url(../images/ic_events.png) no-repeat -476px -38px;
+    width: 38px;
+    height: 59px;
+	left:-19px;
+   margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40%;
+    position: relative;
+    top: -30px;
+}
+.events_list .right_li {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display: flex;
+} 
+
+.events_list li {
+    position: relative;
+    height: 68px;
+	list-style: none;
+    vertical-align: bottom;
+	padding: 0;
+}  
+.events_list .right_li .ic_events {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+
+
+.events_list .right_li .ic_events:after {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    width: 1px;
+    height: 20px;
+    background: #fff;
+}
+
+
+.events_list .right_li .ic_events_last:after {
+    display: none;
+}
+
+.events_list li:nth-child(1) .txt_events {
+    animation: enttxt_effect .8s 1s linear both;
+    -webkit-animation: enttxt_effect .8s 1s linear both;
+} 
+.events_list .right_li .txt_events {
+    left: 56px;
+}
+.events_list   .txt_events_left {
+    text-align: right;
+    flex: 1;
+	font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    /*white-space: nowrap;*/
+    white-space: normal;
+    min-width: 100px;
+}
+/*English*/
+.events_list_en .txt_events_left {
+    left: -115px;
+}
+.events_list .txt_events {
+    flex: 1;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+.events_list ul {
+    position: relative;
+	padding: 0;
+
+}
+.events_list .left_li .ic_events {
+    right: -7px;
+}
+.events_list .left_li {
+    text-align: right;
+    width: 40%;
+}
+.events_list .left_li .ic_events i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 51px;
+    height: 98px;
+    background: url(../images/ic_events.png) no-repeat -460px -116px;
+}
+.events_list .left_li .txt_events {
+    right: 56px;
+}

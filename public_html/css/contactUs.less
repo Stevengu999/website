@@ -1,0 +1,100 @@
+.contactUs_container {
+
+
+    .banner_wrap {
+        height: 420px;
+        background: url("../images/contactUs_banner.png") no-repeat center / cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .banner_container {
+        margin-top: 30px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        .banner_title {
+            color: #fff;
+            font-size: 46px;
+            text-align: center;
+        }
+        .banner_info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 20px;
+                color: #fff;
+                margin: 0;
+                margin:0 20px;
+                white-space: nowrap;
+                min-width: 205px;
+            }
+        }
+    }
+
+
+    .contact_us {
+        .contact_us_wrap {
+
+        }
+        .contact_us_left {
+            //text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .email_box {
+            padding-top: 100px;
+            h2, p {
+                margin-bottom: 0;
+            }
+            h2 {
+                color: #333;
+                font-size: 32px;
+            }
+            p {
+                color: #666;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            a {
+                display: block;
+                margin-top: 20px;
+            }
+        }
+
+        .contact_us_right {
+            .img_box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px 0 50px 0;
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    max-width: 520px;
+                }
+            }
+
+        }
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .contactUs_container .contact_us .email_box {
+        padding-top: 20px;
+    }
+}

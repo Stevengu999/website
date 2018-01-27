@@ -1,0 +1,68 @@
+/**********   新闻   ********/
+.news_container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f3f9ff;
+
+    font-size: 14px;
+}
+.BreakingNewsController {
+    width: 100%;
+    max-width: 600px;
+    min-width: 350px;
+    margin: 0 auto;
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    ul,li{ padding:0;margin:0;list-style:none}
+    li {
+        height: 40px;
+        line-height: 40px;
+    }
+    li a {
+        //padding: 10px 0;
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        color: #666666;
+        font-size: 14px;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        //text-overflow: -o-ellipsis-lastline;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; //这儿的数字代表的就是你所需要实现效果的第N行
+        -webkit-box-orient: vertical;
+    }
+    li a:hover {
+        color: #666666;
+    }
+    ul {
+        flex: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding:0 50px;
+    }
+
+    .bn-title {
+        width: 40px;
+    }
+    /*更多*/
+    .more_box {
+        //width: 80px;
+    }
+    .more {
+        color: #00c2de;
+        font-size: 14px;
+    }
+    .more:hover {
+        color: #00c2de;
+    }
+}

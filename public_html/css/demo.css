@@ -1,0 +1,213 @@
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.item-ljp{
+	padding:15px;
+	height:320px;
+	margin-top:5px;
+	border:1px solid rgba(34, 103, 160, 0.6);
+}
+.item-ljp-en{
+	height:480px;
+}
+.item-ljp-en-low{
+	height:340px;
+}
+
+.ljp-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ljp-header .header-pic{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	border:1px solid #2267a0;
+	float:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.ljp-header .header-pic>img{
+	display: block;
+	width:120%;
+	height:120%;
+	border:none;
+	position: absolute;
+	top: -10%;
+	left: -10%;
+}
+.ljp-header .header-name{
+	font-size:26px;
+	color:#333;
+	margin-left: 20px;
+	float:left;
+}
+.ljp-text{
+	line-height: 26px;
+	text-indent: 2em;
+	font-size:16px;
+	/*text-align: left;*/
+	 margin-top:15px;
+	color:#666;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+.english_text {
+	/*text-align:justify;*/
+	/*text-justify:inter-ideograph;*/
+}
+.ljg-icon{
+	display: inline-block;
+}
+.ljg-icon11{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/11.png') no-repeat;
+	background-size: cover;
+	width:45px;
+	height:70px;
+}
+.ljg-icon21{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/21.png') no-repeat;
+	background-size: cover;
+	width:60px;
+	height:50px;
+}
+.ljg-icon31{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/31.png') no-repeat;
+	background-size: cover;
+	width:60px;
+	height:55px;
+}
+.ljg-icon41{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/41.png') no-repeat;
+	background-size: cover;
+	width:60px;
+	height:50px;
+}
+.ljg-icon11.ljg-iconactive{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/12.png') no-repeat;
+	background-size: cover;
+}
+.ljg-icon21.ljg-iconactive{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/22.png') no-repeat;
+	background-size: cover;
+}
+.ljg-icon31.ljg-iconactive{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/32.png') no-repeat;
+	background-size: cover;
+}
+.ljg-icon41.ljg-iconactive{
+	background:url('http://oqo3vf2t5.bkt.clouddn.com/42.png') no-repeat;
+	background-size: cover;
+}
+.services-item{
+	height:220px;
+}
+
+.our-investor {
+	/*padding: 50px 0;*/
+	background: #fff;
+	background: url(../images/bg-investor.png) center top no-repeat;
+	background-size: cover;
+}
+
+.our-investor .investor-title {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.our-investor .investor-list {
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	margin-top: 30px;
+}
+
+.our-investor .investor-list .investor-intro {
+	width: 100%;
+	/*height: 500px;*/
+	border-radius: 10px;
+	background: #fff;
+	padding: 40px 20px 30px 20px;
+	box-shadow: 6px 6px 15px 0px rgba(12, 71, 114, 0.5);
+	margin-top: 20px;
+}
+
+.our-investor .investor-list .investor-intro-mid {
+	/*margin: 0 20px;*/
+}
+
+.our-investor .investor-list .investor-intro .investor-name {
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+}
+
+.our-investor .investor-list .investor-intro .investor-content {
+	font-size: 16px;
+	color: #333;
+	margin-top: 30px;
+	text-align: left;
+	/*text-align: justify;*/
+	/*text-justify:inter-ideograph;*/
+	text-indent: 2rem;
+	line-height: 1.8
+}
+.our-investor .investor-list .investor-intro .investor-content-en {
+	text-indent: 0em;
+}
+
+.title_common {
+	position: relative;
+	text-align: center;
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+.title_common:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	width: 30px;
+	height: 3px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.title_common.fontColor_white {
+	color: #fff;
+}
+.title_common.fontColor_black {
+	color: #333;
+}
+.title_common.bottomLine_white:after {
+	background: #fff;
+}
+.title_common.bottomLine_gray:after {
+	background: #999;
+}
